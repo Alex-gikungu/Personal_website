@@ -1,4 +1,4 @@
-/*function showTab(tabId) {
+ function showTab(tabId) /*{
     const sections = document.querySelectorAll('section');
     sections.forEach(function(section) {
       if (section.id === tabId) {
@@ -8,7 +8,7 @@
       }
     });
   }
-
+/*
 let submitBtn = document.querySelector('#submitBtn');
 submitBtn.addEventListener('click', function() {
   console.log(alert`submited`);
