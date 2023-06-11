@@ -147,9 +147,9 @@ section {
 
 }
 
-#email{
+#email input{
     text-align: center;
 }
-#phone{
+#phone input{
     text-align: center;
 }
