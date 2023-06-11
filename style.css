@@ -1,0 +1,151 @@
+*{
+    margin:10;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+    font-size:18px;
+
+}
+span{
+    color:red;
+    font-size: xx-large;
+}
+html{
+    scroll-behavior: smooth;
+}
+/*navbar section*/
+body {
+    height:500px;
+  }
+  
+.navbar{
+    display:flex;
+    justify-content: center;
+    background-color:skyblue;
+    
+}
+.navbar ul{
+    display: flex;
+    
+}
+
+.navbar ul li {
+    padding:0px 90px 0px 90px;
+    text-align: center;
+    list-style: none;
+    margin-top:0px;
+}
+ 
+.navbar a{
+    text-decoration: none;
+
+}
+
+.navbar ul li a:hover{
+    background-color:white;
+    color:black;
+
+}
+
+#home {
+    display: flex;
+    justify-content: center;
+    height:auto;
+}
+
+.home{
+    text-align: center;
+
+}
+
+ .home p{
+    font-size:larger;
+}
+
+/*
+.home img{
+    width:600px;
+    float:right;
+    padding-right: 100px;
+    
+}*/
+
+
+
+ h1{
+    font-size: 40px;
+}
+
+/*about section */
+#about{
+    margin-top:100px;
+margin-left:50px;
+}
+.about p{
+    font-size:large;
+}
+.about h1{
+    text-align: center;
+ 
+    
+}
+.about img{
+    float: left;
+    height:300px;
+    width:300px;
+    margin-right: 30px;
+
+}
+
+.contact{
+    display:block;
+    margin-top:100px;
+    text-align: center;
+}
+.contact input{
+    border-radius:1x;
+    background-color:white;
+    color: black;
+    height:30px;
+}
+
+#feed input{
+    height:150px;
+    width:550px;
+    text-align: center;
+}
+section {
+    display: none;
+  }
+  
+  button{
+    background-color: black;
+    color: wheat;
+    border-radius:4px solid red;
+    height:30px;
+    width:100px;
+    margin-top: 20px;
+  }
+
+.footer{
+    background-color:skyblue;
+    margin-top:300px;
+    position:relative;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons img{
+    width:100px;
+    padding:15px;
+
+}
+
+
+
+
