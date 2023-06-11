@@ -8,12 +8,11 @@
       }
     });
   }
-/*
 let submitBtn = document.querySelector('#submitBtn');
 submitBtn.addEventListener('click', function() {
   console.log(alert`submited`);
 });
-
+/*
 let whatsappIcon = document.querySelector('#whatsapp-icon');
 whatsappIcon.addEventListener('click', function() {
   window.open('https://wa.me/whatsappphonenumber', '_blank');
