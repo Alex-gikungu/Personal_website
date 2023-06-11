@@ -1,4 +1,4 @@
- function showTab(tabId) /*{
+ function showTab(tabId) {
     const sections = document.querySelectorAll('section');
     sections.forEach(function(section) {
       if (section.id === tabId) {
