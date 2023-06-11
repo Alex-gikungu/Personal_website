@@ -11,13 +11,13 @@
 let submitBtn = document.querySelector('#submitBtn');
 submitBtn.addEventListener('click', function() {
   console.log(alert`submited`);
-});/*
+});
 
 let whatsappIcon = document.querySelector('#whatsapp-icon');
 whatsappIcon.addEventListener('click', function() {
   window.open('https://wa.me/whatsappphonenumber', '_blank');
 });
-
+/*
 let facebookIcon = document.querySelector('#facebook-icon');
 facebookIcon.addEventListener('click',function (){
   window.open('https://www.facebook.com/Alexi Alex"_blank"')
