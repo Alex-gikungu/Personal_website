@@ -17,7 +17,7 @@ let whatsappIcon = document.querySelector('#whatsapp-icon');
 whatsappIcon.addEventListener('click', function() {
   window.open('https://wa.me/whatsappphonenumber', '_blank');
 });
-/*
+
 let facebookIcon = document.querySelector('#facebook-icon');
 facebookIcon.addEventListener('click',function (){
   window.open('https://www.facebook.com/Alexi Alex"_blank"')
@@ -29,7 +29,7 @@ twitterIcon.addEventListener('click',function(){
   window.open('https://twitter.com/@AlexiGikun71556 "_blank"')
 
 })
-*/
+
 
 
 
