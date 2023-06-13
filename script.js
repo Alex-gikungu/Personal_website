@@ -1,13 +1,13 @@
- function showTab(tabId) {
-    const sections = document.querySelectorAll('section');
-    sections.forEach(function(section) {
-      if (section.id === tabId) {
-        section.style.display = 'block';
-      } else {
-        section.style.display = 'none';
-      }
-    });
-  }
+function showTab(tabId) {
+  const sections = document.querySelectorAll('section');
+  sections.forEach(function(section) {
+    if (section.id === tabId) {
+      section.style.display = 'block';
+    } else {
+      section.style.display = 'none';
+    }
+  });
+}
 let submitBtn = document.querySelector('#submitBtn');
 submitBtn.addEventListener('click', function() {
   console.log(alert`submited`);
